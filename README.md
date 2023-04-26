@@ -37,10 +37,10 @@ Windows, Linux and macOS.
 In order to correctly compile Trinitycore-Legion you will need to utilize the following software.
 
 >- Boost ≥ 1.68 (latest stable recommended)
-- MySQL ≥ 5.7 (8.x is currently unsupported)
-- OpenSSL = 1.1.x (3.x is currently unsupported)
-- CMake ≥ 3.18.4 (latest stable recommended)
-- MS Visual Studio (Community) ≥ 17.4 (2022) (Desktop) (Not previews)
+>- MySQL ≥ 5.7 (8.x is currently unsupported)
+>- OpenSSL = 1.1.x (3.x is currently unsupported)
+>- CMake ≥ 3.18.4 (latest stable recommended)
+>- MS Visual Studio (Community) ≥ 17.4 (2022) (Desktop) (Not previews)
 
 Keep the above in mind when installing the required software to avoid getting compilation errors.
 
