@@ -1,5 +1,5 @@
 version: 1.0.{build}
-image: Visual Studio 2019
+image: Visual Studio 2017
 clone_depth: 1
 init:
 - ps: ''
@@ -12,9 +12,9 @@ build_script:
 
     md build && cd build
 
-    cmake -G"Visual Studio 16 2019" -A x64 toolset=msvc-14.1 -DSCRIPTS=dynamic -DTOOLS=True -DCMAKE_CXX_FLAGS=" /DWIN32 /D_WINDOWS /W3 /GR /EHsc /WX" -DCMAKE_C_FLAGS="/DWIN32 /D_WINDOWS /W3 /WX" ..
+    cmake -G"Visual Studio 15 2017" -A x64 toolset=msvc-14.1 -DSCRIPTS=dynamic -DTOOLS=True -DCMAKE_CXX_FLAGS=" /DWIN32 /D_WINDOWS /W3 /GR /EHsc /WX" -DCMAKE_C_FLAGS="/DWIN32 /D_WINDOWS /W3 /WX" ..
 
-    "C:\Program Files\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe" /nologo /m:2 /p:Configuration=RelWithDebInfo /p:Platform="X64" /verbosity:minimal /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll" "TrinityCore.sln"
+    "C:\Program Files\Microsoft Visual Studio\2017\Community\MSBuild\Current\Bin\MSBuild.exe" /nologo /m:2 /p:Configuration=RelWithDebInfo /p:Platform="X64" /verbosity:minimal /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll" "TrinityCore.sln"
 
     cd bin\RelWithDebInfo\
 
@@ -26,16 +26,16 @@ build_script:
 
     cd ..
 
-    7z a TrinityCoreWin64VS2022.zip .\RelWithDebInfo\*
+    7z a TrinityCoreWin64VS2017.zip .\RelWithDebInfo\*
 
     del /F /Q /S "RelWithDebInfo\*.pdb" > NUL
 
-    7z a TrinityCoreWin64VS2022NoSymbols.zip .\RelWithDebInfo\*
+    7z a TrinityCoreWin64VS2017NoSymbols.zip .\RelWithDebInfo\*
 
 test: off
 artifacts:
-- path: build\bin\TrinityCoreWin64VS2022.zip
-  name: TrinityCoreWin64VS2022
+- path: build\bin\TrinityCoreWin64VS2017.zip
+  name: TrinityCoreWin64VS2017
 
-- path: build\bin\TrinityCoreWin64VS2022NoSymbols.zip
-  name: TrinityCoreWin64VS2022NoSymbols
+- path: build\bin\TrinityCoreWin64VS2017NoSymbols.zip
+  name: TrinityCoreWin64VS2017NoSymbols
