@@ -7,7 +7,7 @@
 master | 7.3.5
 :------------: | :------------:
 [![master Build Status](https://travis-ci.org/TrinityCore/TrinityCore.svg?branch=master)](https://travis-ci.org/TrinityCore/TrinityCore) | [![3.3.5 Build Status](https://travis-ci.org/TrinityCore/TrinityCore.svg?branch=3.3.5)](https://travis-ci.org/TrinityCore/TrinityCore)
-[![master Build status](https://ci.appveyor.com/api/projects/status/f1gb5sf4k6txv2ss/branch/master?svg=true)](https://ci.appveyor.com/project/DDuarte/trinitycore/branch/master) | [![Build status](https://ci.appveyor.com/api/projects/status/f1gb5sf4k6txv2ss/branch/3.3.5?svg=true)](https://ci.appveyor.com/project/DDuarte/trinitycore/branch/3.3.5)
+[![master Build status](https://ci.appveyor.com/api/projects/status/f1gb5sf4k6txv2ss?svg=true)](https://ci.appveyor.com/project/IllInuz/trinitycore-legion) | [![Build status](https://ci.appveyor.com/api/projects/status/f1gb5sf4k6txv2ss?svg=true)](https://ci.appveyor.com/project/IllInuz/trinitycore-legion)
 [![Coverity Scan Build Status](https://scan.coverity.com/projects/28303/badge.svg)](https://scan.coverity.com/projects/28303) | [![Coverity Scan Build Status](https://scan.coverity.com/projects/28303/badge.svg)](https://scan.coverity.com/projects/28303)
 
 ## Introduction
