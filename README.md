@@ -1,6 +1,6 @@
-# ![logo](https://community.trinitycore.org/public/style_images/1_trinitycore.png) TrinityCore (master)
+# ![logo](https://community.trinitycore.org/public/style_images/1_trinitycore.png) TrinityCore-Legion (Unoficcial Legion Trinitycore repository)
 
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/IllInuz/trinitycore-legion.svg)](http://isitmaintained.com/project/IllInuz/trinitycore-legion "Average time to resolve an issue") | [![Percentage of issues still open](http://isitmaintained.com/badge/open/IllInuz/trinitycore-legion.svg)](http://isitmaintained.com/project/IllInuz/trinitycore-legion "Percentage of issues still open")
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/IllInuz/trinitycore-legion.svg)](http://isitmaintained.com/project/IllInuz/trinitycore-legion "Average time to resolve an issue")  [![Percentage of issues still open](http://isitmaintained.com/badge/open/IllInuz/trinitycore-legion.svg)](http://isitmaintained.com/project/IllInuz/trinitycore-legion "Percentage of issues still open")
 
 ## Build Status
 
